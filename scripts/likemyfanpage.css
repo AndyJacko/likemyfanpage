@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*HTML Tags*/
+body{overflow-y:scroll;background:#fff;font-size: 11px;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;color:#333;line-height:1.28;margin:0;padding:0;text-align:left;direction:ltr;}
+h1,h2,h3,h4,h5,h6{font-size: 13px;color:#333;margin:0;padding:0}
+h1{font-size: 16px}
+h4,h5{font-size: 11px}
+p{margin:1em 0}
+a{cursor:pointer;color:#3b5998;-moz-outline-style:none;text-decoration:none}
+a:hover{text-decoration:underline}
+img{border:0}
+ul{list-style-type:none;margin:0;padding:0}
+
+
+/*Sitewide Effects*/
+#globalContainer{width:981px;margin:0 auto}
+#mainContainer{margin-left:-1px;display:block;width:100%;border-right:1px solid #b3b3b3}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.lfloat{float:left}
+.rfloat{float:right}
+.justify{text-align:justify !important}
+.inlineBlock{display:inline-block; padding:0px; margin:0px;vertical-align:middle;}
+.frontPageBoxes{display:inline-block; padding:2px;position:relative;}
+.tbl{ border-bottom: 1px solid #E9E9E9; padding-bottom: 10px; }
+.aleft{ text-align: left; }
+.iconPic { border: 1px solid #000; }
+.pleft{padding-left:15px;}
+.cboth {clear:both;}
+.aCentre {text-align: center;}
+
+/*Header*/
+#blueBar{background-color:#3b5998;height:41px;left:0;position:absolute;width:100%;z-index:-1}
+#topBar{background-color:#627aad;border:1px solid #1d4088;border-bottom:0;height:30px;margin-left:180px}
+.pagePlacement{padding-top:10px}
+/*Page Logo*/
+#pageLogo{float:left;z-index:5}
+#pageLogo a{background-image:url(/images/likemyfanpage.png);background-repeat:no-repeat;background-color:#3b5998;display:block;height:31px;width:164px}
+#pageLogo a:hover,#pageLogo a:focus,#pageLogo a:active{background-image:url(/images/likemyfanpage.png);background-repeat:no-repeat;background-color:#4b67a1;outline:none;}
+/*Top Right Nav Items*/
+#topRightNav li{float:left}
+#topRightNav a{color:#fff;display:block;display:inline-block;font-weight:bold;height:22px;padding:8px 10px 0 10px;text-decoration:none}
+#topRightNav a:hover,#topRightNav a:focus,#topRightNav a:active{outline:none;background-color:#6d86b7}
+/*Search Box*/
+#searchForm{margin:4px 0 0 4px;width:350px}
+#searchForm input{width:315px}
+#searchForm .searchHeader,#searchForm .searchWrap{border-color:#3b5998;z-index:100}
+.searchBox{border:1px solid #bdc7d8;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 11px;padding:3px}
+.searchSpan span{border:0;border-top:1px solid #ededed;display:inline-block;padding:1px 0 2px;position:relative}
+.searchSpan input{border:0;border-right:1px solid #e5e5e5;margin:0 22px 0 5px;outline:none;padding:1px 5px 2px 0;width:190px}
+.searchSpan button{background-image:url(/images/searchicon.png);background-repeat:no-repeat;background-position:0px 1px;background-color:#fff;border:0;cursor:pointer;display:block;height:19px;padding:0;position:absolute;right:0;top:0;width:18px}
+.searchSpan button:hover{background-image:url(/images/searchicon.png);background-repeat:no-repeat;background-position:-20px 1px;background-color:#fff;border:0;cursor:pointer;display:block;height:19px;padding:0;position:absolute;right:0;top:0;width:18px}
+.searchHeader{background:#fff;border:solid #bdc7d8;border-width:1px 0;cursor:default;position:relative}
+.searchHeader .searchWrap{border:solid #bdc7d8;border-width:0 1px}
+
+
+/*Left Nav*/
+#leftCol{display:block;float:left;padding:20px 0 0 2px;width:179px;word-wrap:break-word}
+#contentCol{border-left:1px solid #b3b3b3;margin-left:181px}
+/*Left Nav Items*/
+.item{padding-left:37px;color:#333;display:block;border-bottom:1px solid #fff;min-height:17px;line-height:13px;padding:3px 8px 0 22px;text-decoration:none;font-size: 9px;}
+.subitem{padding-left:37px;color:#333;display:block;border-bottom:1px solid #fff;min-height:17px;line-height:13px;padding:3px 8px 0 28px;text-decoration:none;font-size: 9px;}
+.item:hover{background-color:#eff2f7;text-decoration:none}
+.subitem:hover{background-color:#eff2f7;text-decoration:none}
+.selectedItem .item,.selectedItem .item:hover{background-color:#d8dfea;font-weight:bold}
+/*Left Nav Icons*/
+.uiFutureSideNavSection{padding-right:20px;margin-left:-20px;width:100%}
+.item,.subitem{margin-left:20px;margin-right:-20px}
+.imgWrap{margin-left:-22px;margin-top:-1px;position:absolute}
+.calricon{background-position:-16px -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.vidsicon{background-position: 0px  -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.camsicon{background-position:-34px -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.picsicon{background-position:-50px -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.gameicon{background-position:-69px -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.headicon{background-position:-86px -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.accticon{background-position:-101px -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.yfpsicon{background-position:-117px -2px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.wallicon{background-position:-1px  -19px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.noteicon{background-position:-18px -19px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.bdayicon{background-position:-35px -19px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.msicicon{background-position:-52px -19px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.cardicon{background-position:-68px -19px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.louticon{background-position:-85px -19px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+.syfpicon{background-position:-102px -19px;background-image:url(/images/navicons.png);background-repeat:no-repeat;display:inline-block;height:16px;width:16px}
+
+
+/*Content Area*/
+#contentCol{background-color:#fff;padding-top:15px}
+#headerArea{ float:left; margin:0 20px 0; width:520px; margin-bottom:5px; padding:2px 0 12px; display:inline-block;text-align: center;overflow:visible;}
+#rightAds{text-align:left;float:left;width:220px;margin-bottom:5px;}
+#siteInfo{ padding:5px; color: #555; }
+.bornicon{margin-right:2px;background-position:0px -0px;background-image:url(/images/sitedescriptionicons.png);background-repeat:no-repeat;display:inline-block;height:9px;width:12px}
+.fromicon{margin-right:2px;background-position:-12px -0px;background-image:url(/images/sitedescriptionicons.png);background-repeat:no-repeat;display:inline-block;height:9px;width:12px}
+.madeicon{margin-right:2px;background-position:-47px -0px;background-image:url(/images/sitedescriptionicons.png);background-repeat:no-repeat;display:inline-block;height:9px;width:12px}
+.mindicon{margin-right:2px;background-position:-24px -0px;background-image:url(/images/sitedescriptionicons.png);background-repeat:no-repeat;display:inline-block;height:9px;width:12px}
+.nameicon{margin-right:2px;background-position:-36px -0px;background-image:url(/images/sitedescriptionicons.png);background-repeat:no-repeat;display:inline-block;height:9px;width:12px}
+.bynaicon{ margin-right:2px; background-position:-1px -2px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.byalicon{ margin-right:2px; background-position:-26px -2px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.byupicon{ margin-right:2px; background-position:-76px -2px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.byadncon{ margin-right:2px; background-position:-52px -2px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.bynaicono{ margin-right:2px; background-position:-230px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.byalicono{ margin-right:2px; background-position:-258px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.byupicono{ margin-right:2px; background-position:-305px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.byadncono{ margin-right:2px; background-position:-282px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:25px; vertical-align: middle; }
+.odrbncon{ margin-right:2px; background-position:-104px 0px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:150px; vertical-align: middle; }
+.firsticon{ margin-right:2px; background-position:-1px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.firsticona{ margin-right:2px; background-position:-113px -33px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.previcon{ margin-right:2px; background-position:-29px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.previcona{ margin-right:2px; background-position:-140px -33px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.nexticon{ margin-right:2px; background-position:-56px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.nexticona{ margin-right:2px; background-position:-168px -33px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.lasticon{ margin-right:2px; background-position:-84px -34px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.lasticona{ margin-right:2px; background-position:-197px -33px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:30px; width:28px; vertical-align: middle; }
+.rbugicon{ margin-right:2px; background-position:-395px 0px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:28px; width:14px; vertical-align: middle; }
+.rbugicon:hover{ margin-right:2px; background-position:-411px 0px; background-image:url(/images/pagingicons.png); background-repeat:no-repeat; display:inline-block; height:28px; width:14px; vertical-align: middle; }
+.sponsoredItem{background: #EDEFF4; margin: 5px;position:relative;}
+.nonSponsoredItem{margin: 5px; position:relative;}
+.reportPage{display:block;bottom:2px;right:4px;position:absolute;}
+.bugReportThanks{text-align:center; !important}
+.paging{padding:6px;}
+.linkcols{-moz-column-count:2;-webkit-column-count:2;column-count:2;-moz-column-gap:20px;-webkit-column-gap:20px;column-gap:20px;-moz-column-rule:1px solid #E9E9E9;-webkit-column-rule:1px solid #E9E9E9;column-rule:1px solid #E9E9E9;}
+.linkcols li{padding:6px;}
+
+
+/*Right Ads*/
+.adsheader{background-color:#F2F2F2;border-bottom:medium none;border-top:1px solid #E2E2E2;padding:4px 5px 5px;}
+.adscontent{padding-left:6px;}
+
+
+/*User Account*/
+.editbutton{background: #E9E9E9; text-align: center; padding: 6px; width: 40px; border: 1px solid #999; margin: 2px;}
+.deletebutton{background: #E9E9E9; text-align: center; padding: 6px; width: 40px; border: 1px solid #999; margin: 2px;} 
+
+
+/*Contact Form*/
+.YourName{border:1px solid #bdc7d8;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 11px;padding:3px;width:400px;} 
+.YourEmail{border:1px solid #bdc7d8;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 11px;padding:3px;width:400px;} 
+.ContactSubject{border:1px solid #bdc7d8;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 11px;padding:3px;width:400px;} 
+.YourComments{border:1px solid #bdc7d8;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 11px;padding:3px;width:400px;height:150px;} 
+
+
+/*Edit FanPage*/
+.pageName, .pageURL{border:1px solid #bdc7d8;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 11px;padding:3px;width:400px;}
+
+
+/*Footer*/
+#pageFooter{background-color:#fff;clear:both;margin-left:180px;vertical-align:middle;}
+#footerContainer{border-top:1px solid #b3b3b3;margin-bottom:30px;padding:8px;position:relative;color:#666;text-align:right;}

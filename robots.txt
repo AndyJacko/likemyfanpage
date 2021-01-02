@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /apps/
+Disallow: /cp/
+Disallow: /scripts/
+Disallow: /Templates/
+Disallow: /updater/
+Sitemap: http://likemyfanpage.com/sitemap.xml

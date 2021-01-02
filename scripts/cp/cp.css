@@ -1,0 +1,54 @@
+#headerArea{ width:760px; text-align:left; }
+.centerme { text-align:center; }
+.statheader { padding:4px; border-bottom:solid 1px #3b5998; margin-bottom:6px; }
+
+/*OPTIONS ICONS*/
+.editicon{background-position:-0px -0px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.deleteicon{background-position:-0px -25px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.subyicon{background-position:-0px -50px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.subnicon{background-position:-0px -75px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.activeyicon{background-position:-0px -100px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.activenicon{background-position:-0px -125px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.pageyicon{background-position:-0px -150px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.pagenicon{background-position:-0px -175px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.bugicon {background-position:-0px -200px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.bugnicon {background-position:-25px -200px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.sponicon {background-position:-0px -225px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.sponnicon {background-position:-25px -225px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.flagicon {background-position:-25px -0px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+.flagnicon {background-position:-25px -25px;background-image:url(/images/cp/cpoptionsicons.png);background-repeat:no-repeat;display:inline-block;height:25px;width:25px}
+
+
+
+/*USER MANAGER*/
+.active { background: #dadfea; border:1px solid #3b5998; }
+.inactive { border:1px solid #9D0000; background: #FAA; }
+.userBox { width:232px; height:60px; padding:4px; margin:4px; display:inline-block; overflow:hidden; }
+.options { float:right; }
+#searchForm{ display:inline-block; vertical-align:middle; }
+#searchForm input{ width:100px; border:1px solid #3b5998; }
+#searchForm select{ border:1px solid #3b5998; height:21px; }
+
+.myform{margin:0 auto;width:400px;padding:14px;text-align:center;}
+#stylized{border:solid 1px #3b5998;background:#dadfea;}
+#stylized label{display:block;font-weight:bold;text-align:right;width:140px;float:left;}
+#stylized .small{color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:140px;}
+#stylized input{float:left;font-size:12px;padding:4px 2px;border:solid 1px #3b5998;width:200px;margin:2px 0 20px 10px;}
+#stylized select{float:left;font-size:12px;padding:4px 2px;border:solid 1px #3b5998;width:200px;margin:2px 0 20px 10px;}
+#stylized textarea{float:left;font-size:12px;padding:4px 2px;border:solid 1px #3b5998;width:200px;margin:2px 0 20px 10px;}
+#stylized button{width:125px;height:30px;background:#666666;text-align:center;color:#FFFFFF;font-weight:bold;}
+
+.sendemailform{margin:0 auto;width:600px;padding:14px;text-align:center;}
+#sendemailusr{border:solid 1px #3b5998;background:#dadfea;}
+#sendemailusr label{display:block;font-weight:bold;text-align:right;width:110px;float:left;}
+#sendemailusr .small{color:#666666;display:block;font-size:11px;font-weight:normal;text-align:right;width:110px;}
+#sendemailusr input{float:left;font-size:12px;padding:4px 2px;border:solid 1px #3b5998;width:440px;margin:2px 0 20px 10px;}
+#sendemailusr textarea{float:left;font-size:12px;padding:4px 2px;border:solid 1px #3b5998;width:440px;margin:2px 0 20px 10px;}
+#sendemailusr button{width:125px;height:30px;background:#666666;text-align:center;color:#FFFFFF;font-weight:bold;}
+
+/*STATS PAGE*/
+.statbox { width:150px; height:150px; padding:4px; margin:4px; display:inline-block; overflow:hidden; background: #dadfea; border:1px solid #3b5998; }
+
+
+
+
